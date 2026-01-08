@@ -64,9 +64,7 @@ const Navbar = () => {
                     ? 'text-primary'
                     : 'text-muted-foreground hover:text-foreground'
                 }`}
-                style={{ animationDelay: `${index * 100}ms` }}
               >
-                <span className="font-mono text-primary mr-1">{String(index + 1).padStart(2, '0')}.</span>
                 {item.name}
                 <span
                   className={`absolute -bottom-1 left-0 h-0.5 bg-primary transition-all duration-300 ${
@@ -107,7 +105,6 @@ const Navbar = () => {
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="text-muted-foreground hover:text-primary transition-colors py-2"
                 >
-                  <span className="font-mono text-primary mr-2">{String(index + 1).padStart(2, '0')}.</span>
                   {item.name}
                 </a>
               ))}

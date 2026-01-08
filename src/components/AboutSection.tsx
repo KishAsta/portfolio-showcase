@@ -6,7 +6,6 @@ const AboutSection = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="flex items-center gap-4 text-2xl md:text-3xl font-bold text-foreground mb-12">
-            <span className="font-mono text-primary text-xl">01.</span>
             About Me
             <span className="flex-1 h-px bg-border ml-4" />
           </h2>
