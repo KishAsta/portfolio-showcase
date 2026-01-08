@@ -5,7 +5,7 @@ const ContactSection = () => {
     <section id="contact" className="section-padding">
       <div className="container mx-auto px-6">
         <div className="max-w-2xl mx-auto text-center">
-          <p className="font-mono text-primary text-sm mb-4">05. What's Next?</p>
+          <p className="font-mono text-primary text-sm mb-4">What's Next?</p>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Get In Touch</h2>
           <p className="text-muted-foreground text-lg leading-relaxed mb-10">
             I'm currently looking for new opportunities and my inbox is always open. Whether you
